@@ -23,4 +23,12 @@ export default defineNuxtConfig({
   vite: {
     plugins: [nxViteTsPaths()],
   },
+  app: {
+    head: {
+      title: 'Nuxt Monorepo Example',
+    },
+  },
+  build: {
+    transpile: ['@nuxt-monorepo/ui'],
+  },
 });

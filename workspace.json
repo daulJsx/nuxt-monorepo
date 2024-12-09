@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run dev",
+        "cwd": "apps/nuxt-app"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build",
+        "cwd": "apps/nuxt-app"
+      }
+    }
+  }
+}
